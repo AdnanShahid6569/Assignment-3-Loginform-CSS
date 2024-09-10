@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-90deg, rgba(58, 3, 99, 0.664), rgba(140, 27, 171, 0.694), rgba(198, 122, 236, 0.694));
+
+}
+
+.container {
+    width: 800px;
+    height: 450px;
+    margin: 40px 0px 20px 15%;
+    display: inline-block;
+    background-image:linear-gradient(-90deg,#3f32f053 55%,rgb(255, 255, 255) 45%),
+    url(images/sign.jpg);
+    background-size:100% 450px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+form{
+    width: 359px;
+    height: 450px;
+}
+.signhead{
+    width: 40%;
+    margin:0px 0px 0px 60px;
+    /* border: 2px solid red; */
+    padding-left: 20px;
+    margin: 20px 0px 10px 100px;
+    font-weight: bold;
+    color: rgb(38, 66, 156);
+    font-size: 35px;
+}
+.signlabel {
+    font-size: 17px;
+    margin-left: 25px;
+}
+.signinput{
+    width: 80%;
+    margin: 2px 0px 6px 25px;
+    padding: 6px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 18px;
+    border-color: rgb(147, 104, 200);
+}
+.signemail{
+    width: 80%;
+    margin: 2px 0px 10px 25px;
+    padding: 6px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 18px;
+    font-size: 18px;
+    border-color: rgb(147, 104, 200);
+}
+.signgender{
+    width: 80%;
+    margin: 0px 0px 5px 25px;
+    padding:5px 10px 5px 0px;
+}
+.signmale{
+    margin-left: 5px;
+    accent-color: purple;
+}
+.signfemale{
+    margin-left: 5px;
+    accent-color: purple;
+}
+.signpass{
+    font-size: 20px;
+    margin-left: 25px;
+}
+.signbtn {
+    width: 84.5%;
+    padding: 8px;
+    margin-left: 25px;
+    margin-top: 14px;
+    background: linear-gradient(-90deg,rgb(108, 108, 239),rgb(17, 25, 134));
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    color: white;
+    border: 2px solid rgb(20, 20, 112);
+    box-shadow: 2px 4px 5px gray;
+    cursor: pointer;
+}
+.position{
+    width:30%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 33px;
+    position: relative;
+    top: -10em;
+    left: 15em;
+}
+ small{
+    width: 22%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    top: -21.8em;
+    left: 37em;
+}
